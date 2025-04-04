@@ -176,6 +176,7 @@ header a:hover{
     font-size: clamp(4rem, 1rem + 2vw, 6rem);
 }
 
+
 /* Projects */
 .content section#projects h1::before{
     counter-increment: section 3;
@@ -185,6 +186,16 @@ header a:hover{
     gap: 1vw;
     padding-top: 2rem;
 }
+
+.content section#projects .grid .box{
+    border: 1px solid #ffff;
+}
+
+.content section#projects .grid .box .info label{
+    font-weight: bold;
+    color: var(--cyan);
+}
+
 .content section#projects .grid .box h3{
     position: absolute;
     text-shadow: 2px 2px var(--dark-navy);
